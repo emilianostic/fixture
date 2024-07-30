@@ -11,6 +11,8 @@ const Imagen1 = () => {
     flex: 1;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 50px
   `;
 
   return (
