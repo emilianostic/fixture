@@ -52,13 +52,13 @@ const MyComponent = () => {
     <Container>
       <InputContainer>
         <StyledTextInput
-          placeholder="Ingrese su texto aquí"
+          placeholder="Ingrese el nombre del Torneo"
           value={inputText}
           onChangeText={setInputText}
         />
       </InputContainer>
       <Button onPress={handleButtonPress}>
-        <ButtonText>Mostrar Texto</ButtonText>
+        <ButtonText>Crear Torneo</ButtonText>
       </Button>
       {displayText ? <DisplayText>{displayText}</DisplayText> : null}
     </Container>
