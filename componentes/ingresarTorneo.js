@@ -40,7 +40,7 @@ const DisplayText = styled.Text`
   margin-top: 20px;
 `;
 
-const MyComponent = () => {
+const IngresarTorneo = () => {
   const [inputText, setInputText] = useState('');
   const [displayText, setDisplayText] = useState('');
 
@@ -58,13 +58,13 @@ const MyComponent = () => {
         />
       </InputContainer>
       <Button onPress={handleButtonPress}>
-        <ButtonText>Crear Torneo</ButtonText>
+        <ButtonText>Ingresar nombre del Torneo</ButtonText>
       </Button>
       {displayText ? <DisplayText>{displayText}</DisplayText> : null}
     </Container>
   );
 };
 
-export default MyComponent;
+export default IngresarTorneo;
 
 

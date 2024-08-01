@@ -1,7 +1,8 @@
 
+import CrearEquipos from './componentes/crearEquipos';
 import Image1 from './componentes/Imagen1';
 //import {Image} from 'react-native'
-import IngresarEquipo from './componentes/ingresar';
+import IngresarEquipo from './componentes/ingresarTorneo';
 export default function App() {
 
 
@@ -10,6 +11,7 @@ export default function App() {
    <>
    <Image1/>
 <IngresarEquipo/>
+<CrearEquipos/>
 </>
   );
 }
